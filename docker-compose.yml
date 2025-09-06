@@ -5,12 +5,20 @@ services:
   node-exporter:
     image: prom/node-exporter:latest
     container_name: node-exporter
-    command:
-      - '--path.rootfs=/host'
     volumes:
-      - /:/host:ro,rslave
-    network_mode: "host"
-    pid: host
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - --path.procfs=/host/proc
+      - --path.sysfs=/host/sys
+      - --path.rootfs=/host
+      - --collector.filesystem.ignored-mount-points
+      - ^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns)($$|/)
+    networks:
+      - internal
+    expose:
+      - 9100
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:9100/metrics"]
