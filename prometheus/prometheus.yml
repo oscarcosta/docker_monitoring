@@ -3,12 +3,19 @@ global:
   evaluation_interval: 15s
 
 scrape_configs:
-  # Scrape do Node Exporter (host metrics)
+  # Node Exporter
   - job_name: 'node-exporter'
     static_configs:
-      - targets: ['localhost:9100']
+      - targets: ['localhost:9100']  # Node Exporter usa network_mode: host
 
-  # Scrape do cAdvisor (container metrics)
+  # cAdvisor
   - job_name: 'cadvisor'
     static_configs:
-      - targets: ['localhost:8080']
+      - targets: ['localhost:8080']  # cAdvisor usa network_mode: host
+
+  # Raspberry Pi thermal sensors (CPU temperature)
+  # Node Exporter já coleta em /sys/class/thermal/thermal_zone*/temp
+  - job_name: 'raspberry-pi-temp'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['localhost:9100']
