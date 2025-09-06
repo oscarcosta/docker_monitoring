@@ -14,14 +14,35 @@ services:
       - --path.sysfs=/host/sys
       - --path.rootfs=/host
       - --collector.filesystem.ignored-mount-points
-      - ^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns)($$|/)
-    networks:
-      - internal
+      - ^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns|rootfs/var/lib/docker/aufs)($$|/)
+    network_mode: "host"
     expose:
       - 9100
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:9100/metrics"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    cap_add:
+      - SYS_ADMIN
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+      - /etc/machine-id:/etc/machine-id:ro
+    expose:
+      - 8080
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080/healthz"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -33,12 +54,11 @@ services:
     user: "65534:65534"  # nobody:nogroup
     depends_on:
       - node-exporter
+      - cadvisor
     volumes:
       - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
       - ./prometheus/data:/prometheus
-    networks: 
-      - internal    
-    expose: 
+    expose:
       - 9090
     restart: unless-stopped
     healthcheck:
@@ -47,17 +67,16 @@ services:
       timeout: 10s
       retries: 3
       start_period: 15s
-    
+
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
-    user: "472:472"  # usuário não-root do Grafana
+    user: "472:472"  # Grafana default user
     depends_on:
       - prometheus
     volumes:
       - ./grafana/data:/var/lib/grafana
-    networks: 
-      - internal
+      - ./grafana/provisioning:/etc/grafana/provisioning
     ports:
       - "3000:3000"
     environment:
@@ -71,12 +90,3 @@ services:
       timeout: 10s
       retries: 3
       start_period: 15s
-
-networks:
-  internal:
-    driver: bridge
-    ipam:
-      driver: default
-      config:
-        - subnet: 172.20.0.0/16
-          gateway: 172.20.0.1
