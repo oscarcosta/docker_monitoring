@@ -15,7 +15,7 @@ services:
       - --path.rootfs=/host
       - --collector.filesystem.ignored-mount-points
       - ^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns|rootfs/var/lib/docker/aufs)($$|/)
-    network_mode: "host"
+    network_mode: "host"  # necessário para métricas do host
     expose:
       - 9100
     restart: unless-stopped
@@ -38,8 +38,9 @@ services:
       - /var/lib/docker/:/var/lib/docker:ro
       - /dev/disk/:/dev/disk:ro
       - /etc/machine-id:/etc/machine-id:ro
-    ports:
-      - "8080:8080"
+    network_mode: "host"  # necessário para métricas do host
+    expose:
+      - 8080
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080/healthz"]
@@ -59,7 +60,7 @@ services:
       - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
       - ./prometheus/data:/prometheus
     ports:
-      - "9090:9090"
+      - "9090:9090"  # publica a porta para host/Grafana
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:9090/-/healthy"]
@@ -77,7 +78,7 @@ services:
     volumes:
       - ./grafana/data:/var/lib/grafana
       - ./grafana/provisioning:/etc/grafana/provisioning
-    network_mode: host
+    network_mode: host  # para acessar Node Exporter/cAdvisor no host
     expose:
       - 3000
     environment:
