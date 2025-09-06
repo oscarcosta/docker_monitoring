@@ -8,10 +8,6 @@ services:
     volumes:
       - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
       - ./prometheus/data:/prometheus
-    networks:
-      - internal
-    expose:
-      - 9090
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:9090/-/healthy"]
@@ -41,13 +37,12 @@ services:
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
+    user: "472:472"  # usuário não-root do Grafana
     depends_on:
       prometheus:
         condition: service_healthy
     volumes:
       - ./grafana/data:/var/lib/grafana
-    networks:
-      - internal
     ports:
       - "3000:3000"
     environment:
@@ -59,7 +54,3 @@ services:
       timeout: 10s
       retries: 3
       start_period: 15s
-    
-networks:
-  internal:
-    driver: bridge
