@@ -1,30 +1,16 @@
 version: '3.8'
 
 services:
-  prometheus:
-    image: prom/prometheus:latest
-    container_name: prometheus
-    user: "65534:65534"  # nobody:nogroup
-    volumes:
-      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
-      - ./prometheus/data:/prometheus
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "wget", "--spider", "-q", "http://localhost:9090/-/healthy"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 15s
-    
+
   node-exporter:
     image: prom/node-exporter:latest
     container_name: node-exporter
+    command:
+      - '--path.rootfs=/host'
     volumes:
-      - /proc:/host/proc:ro
-      - /sys:/host/sys:ro
-      - /:/rootfs:ro
       - /:/host:ro,rslave
     network_mode: "host"
+    pid: host
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:9100/metrics"]
@@ -33,20 +19,43 @@ services:
       retries: 3
       start_period: 15s
 
-
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    user: "65534:65534"  # nobody:nogroup
+    depends_on:
+      - node-exporter
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./prometheus/data:/prometheus
+    networks: 
+      - internal    
+    expose: 
+      - 9090
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:9090/-/healthy"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
     user: "472:472"  # usuário não-root do Grafana
     depends_on:
-      prometheus:
-        condition: service_healthy
+      - prometheus
     volumes:
       - ./grafana/data:/var/lib/grafana
+    networks: 
+      - internal
     ports:
       - "3000:3000"
     environment:
+      - GF_SECURITY_ADMIN_USER=admin
       - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/api/health"]
@@ -54,3 +63,12 @@ services:
       timeout: 10s
       retries: 3
       start_period: 15s
+
+networks:
+  internal:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/16
+          gateway: 172.20.0.1
