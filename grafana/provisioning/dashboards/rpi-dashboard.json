@@ -21,7 +21,7 @@
       }
     ]
   },
-  "description": "Raspberry Pi Monitoring Dashboard",
+  "description": "Comprehensive server monitoring dashboard showing CPU, memory, swap, disk usage, network, processes, and temperature metrics in real-time.",
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
@@ -38,12 +38,12 @@
       },
       "id": 2,
       "panels": [],
-      "title": "Quick CPU / Mem / Disk",
+      "title": "CPU, Memory, Disk, and Temperature Overview",
       "type": "row"
     },
     {
       "datasource": {},
-      "description": "Busy state of all CPU cores together",
+      "description": "Current CPU utilization across all cores as a percentage of total capacity.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -121,7 +121,7 @@
           "step": 240
         }
       ],
-      "title": "CPU Busy",
+      "title": "CPU Usage",
       "type": "gauge"
     },
     {
@@ -129,7 +129,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Busy state of all CPU cores together (5 min average)",
+      "description": "Average CPU load over the last 5 minutes expressed as a percentage of total cores.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -208,7 +208,7 @@
           "step": 240
         }
       ],
-      "title": "Sys Load (5m avg)",
+      "title": "Average System Load",
       "type": "gauge"
     },
     {
@@ -216,7 +216,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Non available RAM memory",
+      "description": "Percentage of RAM currently in use across the system.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -304,7 +304,7 @@
     },
     {
       "datasource": {},
-      "description": "Used Swap",
+      "description": "Percentage of swap space currently in use.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -386,7 +386,7 @@
     },
     {
       "datasource": {},
-      "description": "Used Root FS",
+      "description": "Percentage of root filesystem currently occupied.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -474,7 +474,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Hardware temperature",
+      "description": "Current CPU temperature in Celsius.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -555,7 +555,7 @@
           "step": 1800
         }
       ],
-      "title": "Temp",
+      "title": "CPU Temperature",
       "type": "gauge"
     },
     {
@@ -563,7 +563,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Total number of CPU cores",
+      "description": "Total number of CPU cores available on the system.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -640,7 +640,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Total RAM",
+      "description": "Total RAM installed on the system in bytes.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -718,7 +718,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "System uptime",
+      "description": "Time elapsed since the system was last booted, in seconds.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -788,7 +788,7 @@
           "refId": "A"
         }
       ],
-      "title": "Uptime",
+      "title": "System Uptime",
       "type": "stat"
     },
     {
@@ -796,7 +796,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Total RootFS",
+      "description": "Total size of the root filesystem in bytes.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -870,7 +870,7 @@
           "refId": "A"
         }
       ],
-      "title": "RootFS Total",
+      "title": "Root FS Total",
       "type": "stat"
     },
     {
@@ -878,7 +878,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Total SWAP",
+      "description": "Total swap space configured on the system in bytes.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -955,7 +955,7 @@
       "datasource": {
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Active Processes",
+      "description": "Number of active processes currently running on the system.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1038,7 +1038,7 @@
       },
       "id": 15,
       "panels": [],
-      "title": "Basic CPU / Mem / Net / Disk",
+      "title": "Detailed CPU / Memory / Network / Disk Metrics",
       "type": "row"
     },
     {
@@ -1046,6 +1046,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
+      "description": "CPU usage over time across all cores.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1169,6 +1170,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
+      "description": "RAM currently in use over time.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1288,8 +1290,11 @@
       "type": "timeseries"
     },
     {
-      "datasource": {},
-      "description": "Disk space used",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "aexahzhj0vz7kc"
+      },
+      "description": "Percentage of disk space used over time.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1385,7 +1390,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "The number (after merges) of I/O requests completed per second for the device",
+      "description": "Disk I/O metrics showing reads, writes, and I/O time per device.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1829,6 +1834,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
+      "description": "CPU temperature over time.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1949,7 +1955,7 @@
         "type": "prometheus",
         "uid": "aexahzhj0vz7kc"
       },
-      "description": "Network Traffic of eth0",
+      "description": "Network traffic for eth0, showing bytes received and transmitted per second.",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -2067,7 +2073,7 @@
           "step": 600
         }
       ],
-      "title": "Network Traffic (eth0)",
+      "title": "Network Traffic",
       "type": "timeseries"
     }
   ],
@@ -2084,7 +2090,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Raspberry Pi Monitoring",
+  "title": "Raspberry Pi System Monitoring",
   "uid": "c6cd9abd-d2bb-46cf-8d45-8c72d3d6be20",
   "version": 6
 }
