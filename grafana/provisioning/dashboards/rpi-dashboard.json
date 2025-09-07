@@ -42,7 +42,9 @@
       "type": "row"
     },
     {
-      "datasource": {},
+      "datasource": {
+        "type": "Prometheus"
+      },
       "description": "Current CPU utilization across all cores as a percentage of total capacity.",
       "fieldConfig": {
         "defaults": {
@@ -126,8 +128,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Average CPU load over the last 5 minutes expressed as a percentage of total cores.",
       "fieldConfig": {
@@ -213,8 +214,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Percentage of RAM currently in use across the system.",
       "fieldConfig": {
@@ -303,7 +303,9 @@
       "type": "gauge"
     },
     {
-      "datasource": {},
+      "datasource": {
+        "type": "Prometheus"
+      },
       "description": "Percentage of swap space currently in use.",
       "fieldConfig": {
         "defaults": {
@@ -385,7 +387,9 @@
       "type": "gauge"
     },
     {
-      "datasource": {},
+      "datasource": {
+        "type": "Prometheus"
+      },
       "description": "Percentage of root filesystem currently occupied.",
       "fieldConfig": {
         "defaults": {
@@ -471,8 +475,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Current CPU temperature in Celsius.",
       "fieldConfig": {
@@ -560,8 +563,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Total number of CPU cores available on the system.",
       "fieldConfig": {
@@ -637,8 +639,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Total RAM installed on the system in bytes.",
       "fieldConfig": {
@@ -715,8 +716,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Time elapsed since the system was last booted, in seconds.",
       "fieldConfig": {
@@ -793,8 +793,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Total size of the root filesystem in bytes.",
       "fieldConfig": {
@@ -875,8 +874,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Total swap space configured on the system in bytes.",
       "fieldConfig": {
@@ -1043,8 +1041,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "CPU usage over time across all cores.",
       "fieldConfig": {
@@ -1167,8 +1164,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "RAM currently in use over time.",
       "fieldConfig": {
@@ -1291,8 +1287,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Percentage of disk space used over time.",
       "fieldConfig": {
@@ -1387,8 +1382,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Disk I/O metrics showing reads, writes, and I/O time per device.",
       "fieldConfig": {
@@ -1831,8 +1825,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "CPU temperature over time.",
       "fieldConfig": {
@@ -1952,8 +1945,7 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "aexahzhj0vz7kc"
+        "type": "Prometheus"
       },
       "description": "Network traffic for eth0, showing bytes received and transmitted per second.",
       "fieldConfig": {
