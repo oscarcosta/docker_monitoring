@@ -1833,7 +1833,7 @@
             "h": 12,
             "w": 12,
             "x": 0,
-            "y": 271
+            "y": 351
           },
           "id": 3,
           "options": {
@@ -2309,7 +2309,7 @@
             "h": 12,
             "w": 12,
             "x": 12,
-            "y": 271
+            "y": 351
           },
           "id": 24,
           "options": {
@@ -2501,7 +2501,7 @@
             "h": 12,
             "w": 12,
             "x": 0,
-            "y": 533
+            "y": 613
           },
           "id": 84,
           "options": {
@@ -2621,7 +2621,7 @@
             "h": 12,
             "w": 12,
             "x": 12,
-            "y": 533
+            "y": 613
           },
           "id": 338,
           "options": {
@@ -2742,7 +2742,7 @@
             "h": 12,
             "w": 12,
             "x": 0,
-            "y": 545
+            "y": 625
           },
           "id": 229,
           "options": {
@@ -2860,7 +2860,7 @@
             "h": 12,
             "w": 12,
             "x": 12,
-            "y": 545
+            "y": 625
           },
           "id": 42,
           "options": {
@@ -2970,7 +2970,7 @@
             "h": 12,
             "w": 12,
             "x": 0,
-            "y": 557
+            "y": 637
           },
           "id": 43,
           "options": {
@@ -3091,7 +3091,7 @@
             "h": 12,
             "w": 12,
             "x": 12,
-            "y": 557
+            "y": 637
           },
           "id": 156,
           "options": {
@@ -3190,7 +3190,7 @@
             "h": 12,
             "w": 12,
             "x": 0,
-            "y": 569
+            "y": 649
           },
           "id": 127,
           "options": {
@@ -3315,7 +3315,7 @@
             "h": 12,
             "w": 12,
             "x": 12,
-            "y": 569
+            "y": 649
           },
           "id": 322,
           "options": {
@@ -3498,7 +3498,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 272
+            "y": 352
           },
           "id": 135,
           "options": {
@@ -3607,7 +3607,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 272
+            "y": 352
           },
           "id": 130,
           "options": {
@@ -3734,7 +3734,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 282
+            "y": 362
           },
           "id": 131,
           "options": {
@@ -3842,7 +3842,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 282
+            "y": 362
           },
           "id": 138,
           "options": {
@@ -4002,7 +4002,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 292
+            "y": 372
           },
           "id": 136,
           "options": {
@@ -4111,7 +4111,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 292
+            "y": 372
           },
           "id": 191,
           "options": {
@@ -4242,7 +4242,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 302
+            "y": 382
           },
           "id": 160,
           "options": {
@@ -4393,7 +4393,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 302
+            "y": 382
           },
           "id": 70,
           "options": {
@@ -4512,7 +4512,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 312
+            "y": 392
           },
           "id": 129,
           "options": {
@@ -4635,7 +4635,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 312
+            "y": 392
           },
           "id": 137,
           "options": {
@@ -5018,7 +5018,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 322
+            "y": 402
           },
           "id": 128,
           "options": {
@@ -5136,7 +5136,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 322
+            "y": 402
           },
           "id": 140,
           "options": {
@@ -5288,7 +5288,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 3289
+            "y": 3369
           },
           "id": 176,
           "options": {
@@ -5407,7 +5407,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 3289
+            "y": 3369
           },
           "id": 22,
           "options": {
@@ -5551,7 +5551,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 3469
+            "y": 3549
           },
           "id": 175,
           "options": {
@@ -5687,7 +5687,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 3469
+            "y": 3549
           },
           "id": 307,
           "options": {
@@ -5800,7 +5800,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1896
+            "y": 1976
           },
           "id": 260,
           "options": {
@@ -5922,7 +5922,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1896
+            "y": 1976
           },
           "id": 291,
           "options": {
@@ -6021,7 +6021,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1906
+            "y": 1986
           },
           "id": 168,
           "options": {
@@ -6152,7 +6152,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1906
+            "y": 1986
           },
           "id": 333,
           "options": {
@@ -6260,7 +6260,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1916
+            "y": 1996
           },
           "id": 334,
           "options": {
@@ -6372,7 +6372,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1916
+            "y": 1996
           },
           "id": 335,
           "options": {
@@ -6521,7 +6521,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 3291
+            "y": 3371
           },
           "id": 62,
           "options": {
@@ -6713,7 +6713,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 3291
+            "y": 3371
           },
           "id": 315,
           "options": {
@@ -6812,7 +6812,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 3321
+            "y": 3401
           },
           "id": 148,
           "options": {
@@ -6927,7 +6927,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 3321
+            "y": 3401
           },
           "id": 305,
           "options": {
@@ -7079,7 +7079,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 3331
+            "y": 3411
           },
           "id": 313,
           "options": {
@@ -7218,7 +7218,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 3331
+            "y": 3411
           },
           "id": 314,
           "options": {
@@ -7342,7 +7342,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1294
+            "y": 1374
           },
           "id": 8,
           "options": {
@@ -7481,7 +7481,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1294
+            "y": 1374
           },
           "id": 7,
           "options": {
@@ -7674,7 +7674,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1404
+            "y": 1484
           },
           "id": 321,
           "options": {
@@ -7796,7 +7796,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1404
+            "y": 1484
           },
           "id": 306,
           "options": {
@@ -7896,7 +7896,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1414
+            "y": 1494
           },
           "id": 259,
           "options": {
@@ -8026,7 +8026,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1414
+            "y": 1494
           },
           "id": 151,
           "options": {
@@ -8076,7 +8076,7 @@
       "type": "row"
     },
     {
-      "collapsed": true,
+      "collapsed": false,
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -8084,606 +8084,613 @@
         "y": 26
       },
       "id": 304,
-      "panels": [
-        {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "${ds_prometheus}"
-          },
-          "description": "Monitors hardware sensor temperatures and critical thresholds as exposed by Linux hwmon. Includes CPU, GPU, and motherboard sensors where available",
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "palette-classic"
-              },
-              "custom": {
-                "axisBorderShow": false,
-                "axisCenteredZero": false,
-                "axisColorMode": "text",
-                "axisLabel": "",
-                "axisPlacement": "auto",
-                "barAlignment": 0,
-                "barWidthFactor": 0.6,
-                "drawStyle": "line",
-                "fillOpacity": 20,
-                "gradientMode": "none",
-                "hideFrom": {
-                  "legend": false,
-                  "tooltip": false,
-                  "viz": false
-                },
-                "insertNulls": false,
-                "lineInterpolation": "linear",
-                "lineWidth": 1,
-                "pointSize": 5,
-                "scaleDistribution": {
-                  "type": "linear"
-                },
-                "showPoints": "never",
-                "spanNulls": false,
-                "stacking": {
-                  "group": "A",
-                  "mode": "none"
-                },
-                "thresholdsStyle": {
-                  "mode": "off"
-                }
-              },
-              "links": [],
-              "mappings": [],
-              "min": 0,
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": 0
-                  }
-                ]
-              },
-              "unit": "celsius"
-            },
-            "overrides": [
-              {
-                "matcher": {
-                  "id": "byRegexp",
-                  "options": "/.*Critical*./"
-                },
-                "properties": [
-                  {
-                    "id": "color",
-                    "value": {
-                      "fixedColor": "#E24D42",
-                      "mode": "fixed"
-                    }
-                  },
-                  {
-                    "id": "custom.fillOpacity",
-                    "value": 0
-                  }
-                ]
-              }
-            ]
-          },
-          "gridPos": {
-            "h": 10,
-            "w": 12,
-            "x": 0,
-            "y": 641
-          },
-          "id": 158,
-          "options": {
-            "legend": {
-              "calcs": [
-                "min",
-                "mean",
-                "max"
-              ],
-              "displayMode": "table",
-              "placement": "bottom",
-              "showLegend": true
-            },
-            "tooltip": {
-              "hideZeros": false,
-              "mode": "multi",
-              "sort": "none"
-            }
-          },
-          "pluginVersion": "12.1.1",
-          "targets": [
-            {
-              "editorMode": "code",
-              "expr": "node_hwmon_temp_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "interval": "",
-              "legendFormat": "{{ chip_name }} {{ sensor }}",
-              "range": true,
-              "refId": "A",
-              "step": 240
-            },
-            {
-              "expr": "node_hwmon_temp_crit_alarm_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "hide": true,
-              "interval": "",
-              "legendFormat": "{{ chip_name }} {{ sensor }} Critical Alarm",
-              "refId": "B",
-              "step": 240
-            },
-            {
-              "editorMode": "code",
-              "expr": "node_hwmon_temp_crit_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "interval": "",
-              "legendFormat": "{{ chip_name }} {{ sensor }} Critical",
-              "range": true,
-              "refId": "C",
-              "step": 240
-            },
-            {
-              "expr": "node_hwmon_temp_crit_hyst_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "hide": true,
-              "interval": "",
-              "legendFormat": "{{ chip_name }} {{ sensor }} Critical Historical",
-              "refId": "D",
-              "step": 240
-            },
-            {
-              "expr": "node_hwmon_temp_max_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "hide": true,
-              "interval": "",
-              "legendFormat": "{{ chip_name }} {{ sensor }} Max",
-              "refId": "E",
-              "step": 240
-            }
-          ],
-          "title": "Hardware Temperature Monitor",
-          "type": "timeseries"
-        },
-        {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "${ds_prometheus}"
-          },
-          "description": "Displays the current fan speeds (RPM) from hardware sensors via the hwmon interface",
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "palette-classic"
-              },
-              "custom": {
-                "axisBorderShow": false,
-                "axisCenteredZero": false,
-                "axisColorMode": "text",
-                "axisLabel": "",
-                "axisPlacement": "auto",
-                "barAlignment": 0,
-                "barWidthFactor": 0.6,
-                "drawStyle": "line",
-                "fillOpacity": 20,
-                "gradientMode": "none",
-                "hideFrom": {
-                  "legend": false,
-                  "tooltip": false,
-                  "viz": false
-                },
-                "insertNulls": false,
-                "lineInterpolation": "linear",
-                "lineWidth": 1,
-                "pointSize": 5,
-                "scaleDistribution": {
-                  "type": "linear"
-                },
-                "showPoints": "never",
-                "spanNulls": false,
-                "stacking": {
-                  "group": "A",
-                  "mode": "none"
-                },
-                "thresholdsStyle": {
-                  "mode": "off"
-                }
-              },
-              "links": [],
-              "mappings": [],
-              "min": 0,
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": 0
-                  }
-                ]
-              },
-              "unit": "rotrpm"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 10,
-            "w": 12,
-            "x": 12,
-            "y": 641
-          },
-          "id": 325,
-          "options": {
-            "legend": {
-              "calcs": [
-                "min",
-                "mean",
-                "max"
-              ],
-              "displayMode": "table",
-              "placement": "bottom",
-              "showLegend": true
-            },
-            "tooltip": {
-              "hideZeros": false,
-              "mode": "multi",
-              "sort": "none"
-            }
-          },
-          "pluginVersion": "12.1.1",
-          "targets": [
-            {
-              "editorMode": "code",
-              "expr": "node_hwmon_fan_rpm{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "interval": "",
-              "legendFormat": "{{ chip_name }} {{ sensor }}",
-              "range": true,
-              "refId": "A",
-              "step": 240
-            },
-            {
-              "editorMode": "code",
-              "expr": "node_hwmon_fan_min_rpm{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "hide": true,
-              "interval": "",
-              "legendFormat": "{{ chip_name }} {{ sensor }} rpm min",
-              "range": true,
-              "refId": "B",
-              "step": 240
-            }
-          ],
-          "title": "Hardware Fan Speed",
-          "type": "timeseries"
-        },
-        {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "${ds_prometheus}"
-          },
-          "description": "Shows how hard each cooling device (fan/throttle) is working relative to its maximum capacity",
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "palette-classic"
-              },
-              "custom": {
-                "axisBorderShow": false,
-                "axisCenteredZero": false,
-                "axisColorMode": "text",
-                "axisLabel": "",
-                "axisPlacement": "auto",
-                "barAlignment": 0,
-                "barWidthFactor": 0.6,
-                "drawStyle": "line",
-                "fillOpacity": 20,
-                "gradientMode": "none",
-                "hideFrom": {
-                  "legend": false,
-                  "tooltip": false,
-                  "viz": false
-                },
-                "insertNulls": false,
-                "lineInterpolation": "linear",
-                "lineWidth": 1,
-                "pointSize": 5,
-                "scaleDistribution": {
-                  "type": "linear"
-                },
-                "showPoints": "never",
-                "spanNulls": false,
-                "stacking": {
-                  "group": "A",
-                  "mode": "none"
-                },
-                "thresholdsStyle": {
-                  "mode": "off"
-                }
-              },
-              "links": [],
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": 0
-                  }
-                ]
-              },
-              "unit": "percent"
-            },
-            "overrides": [
-              {
-                "matcher": {
-                  "id": "byRegexp",
-                  "options": "/.*Max*./"
-                },
-                "properties": [
-                  {
-                    "id": "color",
-                    "value": {
-                      "fixedColor": "#EF843C",
-                      "mode": "fixed"
-                    }
-                  },
-                  {
-                    "id": "custom.fillOpacity",
-                    "value": 0
-                  }
-                ]
-              }
-            ]
-          },
-          "gridPos": {
-            "h": 10,
-            "w": 12,
-            "x": 0,
-            "y": 651
-          },
-          "id": 300,
-          "options": {
-            "legend": {
-              "calcs": [
-                "min",
-                "mean",
-                "max"
-              ],
-              "displayMode": "table",
-              "placement": "bottom",
-              "showLegend": true
-            },
-            "tooltip": {
-              "hideZeros": false,
-              "mode": "multi",
-              "sort": "none"
-            }
-          },
-          "pluginVersion": "12.1.1",
-          "targets": [
-            {
-              "editorMode": "code",
-              "expr": "100 * node_cooling_device_cur_state{instance=\"$node\",job=\"$job\"} / node_cooling_device_max_state{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "hide": false,
-              "interval": "",
-              "legendFormat": "{{ name }} - {{ type }} ",
-              "range": true,
-              "refId": "A",
-              "step": 240
-            }
-          ],
-          "title": "Cooling Device Utilization",
-          "type": "timeseries"
-        },
-        {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "${ds_prometheus}"
-          },
-          "description": "Hardware monitor for voltage",
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "palette-classic"
-              },
-              "custom": {
-                "axisBorderShow": false,
-                "axisCenteredZero": false,
-                "axisColorMode": "text",
-                "axisLabel": "",
-                "axisPlacement": "auto",
-                "barAlignment": 0,
-                "barWidthFactor": 0.6,
-                "drawStyle": "line",
-                "fillOpacity": 20,
-                "gradientMode": "none",
-                "hideFrom": {
-                  "legend": false,
-                  "tooltip": false,
-                  "viz": false
-                },
-                "insertNulls": false,
-                "lineInterpolation": "linear",
-                "lineWidth": 1,
-                "pointSize": 5,
-                "scaleDistribution": {
-                  "type": "linear"
-                },
-                "showPoints": "never",
-                "spanNulls": false,
-                "stacking": {
-                  "group": "A",
-                  "mode": "none"
-                },
-                "thresholdsStyle": {
-                  "mode": "off"
-                }
-              },
-              "links": [],
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": 0
-                  },
-                  {
-                    "color": "red",
-                    "value": 80
-                  }
-                ]
-              },
-              "unit": "bool_yes_no"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 10,
-            "w": 12,
-            "x": 12,
-            "y": 651
-          },
-          "id": 340,
-          "options": {
-            "legend": {
-              "calcs": [
-                "min",
-                "mean",
-                "max"
-              ],
-              "displayMode": "table",
-              "placement": "bottom",
-              "showLegend": true
-            },
-            "tooltip": {
-              "hideZeros": false,
-              "mode": "multi",
-              "sort": "none"
-            }
-          },
-          "pluginVersion": "12.1.1",
-          "targets": [
-            {
-              "editorMode": "code",
-              "expr": "node_hwmon_in_lcrit_alarm_volts{chip=\"soc:firmware_raspberrypi_hwmon\", sensor=\"in0\", instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "hide": false,
-              "interval": "",
-              "legendFormat": "{{ power_supply }} online",
-              "range": true,
-              "refId": "A",
-              "step": 240
-            }
-          ],
-          "title": "Voltage Alarm",
-          "type": "timeseries"
-        },
-        {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "${ds_prometheus}"
-          },
-          "description": "Shows the online status of power supplies (e.g., AC, battery). A value of 1-Yes indicates the power supply is active/online",
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "palette-classic"
-              },
-              "custom": {
-                "axisBorderShow": false,
-                "axisCenteredZero": false,
-                "axisColorMode": "text",
-                "axisLabel": "",
-                "axisPlacement": "auto",
-                "barAlignment": 0,
-                "barWidthFactor": 0.6,
-                "drawStyle": "line",
-                "fillOpacity": 20,
-                "gradientMode": "none",
-                "hideFrom": {
-                  "legend": false,
-                  "tooltip": false,
-                  "viz": false
-                },
-                "insertNulls": false,
-                "lineInterpolation": "linear",
-                "lineWidth": 1,
-                "pointSize": 5,
-                "scaleDistribution": {
-                  "type": "linear"
-                },
-                "showPoints": "never",
-                "spanNulls": false,
-                "stacking": {
-                  "group": "A",
-                  "mode": "none"
-                },
-                "thresholdsStyle": {
-                  "mode": "off"
-                }
-              },
-              "links": [],
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": 0
-                  },
-                  {
-                    "color": "red",
-                    "value": 80
-                  }
-                ]
-              },
-              "unit": "bool_yes_no"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 10,
-            "w": 12,
-            "x": 0,
-            "y": 661
-          },
-          "id": 302,
-          "options": {
-            "legend": {
-              "calcs": [
-                "min",
-                "mean",
-                "max"
-              ],
-              "displayMode": "table",
-              "placement": "bottom",
-              "showLegend": true
-            },
-            "tooltip": {
-              "hideZeros": false,
-              "mode": "multi",
-              "sort": "none"
-            }
-          },
-          "pluginVersion": "12.1.1",
-          "targets": [
-            {
-              "editorMode": "code",
-              "expr": "node_power_supply_online{instance=\"$node\",job=\"$job\"}",
-              "format": "time_series",
-              "hide": false,
-              "interval": "",
-              "legendFormat": "{{ power_supply }} online",
-              "range": true,
-              "refId": "A",
-              "step": 240
-            }
-          ],
-          "title": "Power Supply",
-          "type": "timeseries"
-        }
-      ],
+      "panels": [],
       "title": "Hardware Misc",
       "type": "row"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${ds_prometheus}"
+      },
+      "description": "Monitors hardware sensor temperatures and critical thresholds as exposed by Linux hwmon. Includes CPU, GPU, and motherboard sensors where available",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 20,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "links": [],
+          "mappings": [],
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "unit": "celsius"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byRegexp",
+              "options": "/.*Critical*./"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#E24D42",
+                  "mode": "fixed"
+                }
+              },
+              {
+                "id": "custom.fillOpacity",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 12,
+        "x": 0,
+        "y": 27
+      },
+      "id": 158,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "mean",
+            "max"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.1.1",
+      "targets": [
+        {
+          "editorMode": "code",
+          "expr": "node_hwmon_temp_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "interval": "",
+          "legendFormat": "{{ chip_name }} {{ sensor }}",
+          "range": true,
+          "refId": "A",
+          "step": 240
+        },
+        {
+          "editorMode": "code",
+          "expr": "node_hwmon_temp_crit_alarm_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "hide": true,
+          "interval": "",
+          "legendFormat": "{{ chip_name }} {{ sensor }} Critical Alarm",
+          "range": true,
+          "refId": "B",
+          "step": 240
+        },
+        {
+          "editorMode": "code",
+          "expr": "node_hwmon_temp_crit_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "interval": "",
+          "legendFormat": "{{ chip_name }} {{ sensor }} Critical",
+          "range": true,
+          "refId": "C",
+          "step": 240
+        },
+        {
+          "editorMode": "code",
+          "expr": "node_hwmon_temp_crit_hyst_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "hide": true,
+          "interval": "",
+          "legendFormat": "{{ chip_name }} {{ sensor }} Critical Historical",
+          "range": true,
+          "refId": "D",
+          "step": 240
+        },
+        {
+          "expr": "node_hwmon_temp_max_celsius{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "hide": true,
+          "interval": "",
+          "legendFormat": "{{ chip_name }} {{ sensor }} Max",
+          "refId": "E",
+          "step": 240
+        }
+      ],
+      "title": "Hardware Temperature Monitor",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${ds_prometheus}"
+      },
+      "description": "Displays the current fan speeds (RPM) from hardware sensors via the hwmon interface",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 20,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "links": [],
+          "mappings": [],
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "unit": "rotrpm"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 12,
+        "x": 12,
+        "y": 27
+      },
+      "id": 325,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "mean",
+            "max"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.1.1",
+      "targets": [
+        {
+          "editorMode": "code",
+          "expr": "node_hwmon_fan_rpm{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "interval": "",
+          "legendFormat": "{{ chip_name }} {{ sensor }}",
+          "range": true,
+          "refId": "A",
+          "step": 240
+        },
+        {
+          "editorMode": "code",
+          "expr": "node_hwmon_fan_min_rpm{instance=\"$node\",job=\"$job\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "hide": true,
+          "interval": "",
+          "legendFormat": "{{ chip_name }} {{ sensor }} rpm min",
+          "range": true,
+          "refId": "B",
+          "step": 240
+        }
+      ],
+      "title": "Hardware Fan Speed",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${ds_prometheus}"
+      },
+      "description": "Shows how hard each cooling device (fan/throttle) is working relative to its maximum capacity",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 20,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "links": [],
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "unit": "percent"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byRegexp",
+              "options": "/.*Max*./"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#EF843C",
+                  "mode": "fixed"
+                }
+              },
+              {
+                "id": "custom.fillOpacity",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 12,
+        "x": 0,
+        "y": 37
+      },
+      "id": 300,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "mean",
+            "max"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.1.1",
+      "targets": [
+        {
+          "editorMode": "code",
+          "expr": "100 * node_cooling_device_cur_state{instance=\"$node\",job=\"$job\"} / node_cooling_device_max_state{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "{{ name }} - {{ type }} ",
+          "range": true,
+          "refId": "A",
+          "step": 240
+        }
+      ],
+      "title": "Cooling Device Utilization",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${ds_prometheus}"
+      },
+      "description": "Hardware monitor for voltage",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 20,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "links": [],
+          "mappings": [],
+          "max": 1,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 1
+              }
+            ]
+          },
+          "unit": "none"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 12,
+        "x": 12,
+        "y": 37
+      },
+      "id": 340,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "mean",
+            "max"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.1.1",
+      "targets": [
+        {
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "node_hwmon_in_lcrit_alarm_volts{chip=\"soc:firmware_raspberrypi_hwmon\", sensor=\"in0\", instance=\"$node\",job=\"$job\"} * 1000",
+          "format": "time_series",
+          "hide": false,
+          "instant": false,
+          "interval": "",
+          "legendFormat": "{{ power_supply }} online",
+          "range": true,
+          "refId": "A",
+          "step": 240
+        }
+      ],
+      "title": "Voltage Alarm",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${ds_prometheus}"
+      },
+      "description": "Shows the online status of power supplies (e.g., AC, battery). A value of 1-Yes indicates the power supply is active/online",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 20,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "links": [],
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "bool_yes_no"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 12,
+        "x": 0,
+        "y": 47
+      },
+      "id": 302,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "mean",
+            "max"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.1.1",
+      "targets": [
+        {
+          "editorMode": "code",
+          "expr": "node_power_supply_online{instance=\"$node\",job=\"$job\"}",
+          "format": "time_series",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "{{ power_supply }} online",
+          "range": true,
+          "refId": "A",
+          "step": 240
+        }
+      ],
+      "title": "Power Supply",
+      "type": "timeseries"
     },
     {
       "collapsed": true,
@@ -8691,7 +8698,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 27
+        "y": 57
       },
       "id": 296,
       "panels": [
@@ -8834,7 +8841,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1446
+            "y": 88
           },
           "id": 298,
           "options": {
@@ -8974,7 +8981,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1446
+            "y": 88
           },
           "id": 331,
           "options": {
@@ -9074,7 +9081,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1456
+            "y": 98
           },
           "id": 297,
           "options": {
@@ -9174,7 +9181,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1456
+            "y": 98
           },
           "id": 332,
           "options": {
@@ -9220,7 +9227,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 28
+        "y": 58
       },
       "id": 270,
       "panels": [
@@ -9315,7 +9322,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1467
+            "y": 1547
           },
           "id": 9,
           "options": {
@@ -9448,7 +9455,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1467
+            "y": 1547
           },
           "id": 33,
           "options": {
@@ -9585,7 +9592,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1477
+            "y": 1557
           },
           "id": 37,
           "options": {
@@ -9711,7 +9718,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1477
+            "y": 1557
           },
           "id": 35,
           "options": {
@@ -9837,7 +9844,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1487
+            "y": 1567
           },
           "id": 133,
           "options": {
@@ -9959,7 +9966,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1487
+            "y": 1567
           },
           "id": 36,
           "options": {
@@ -10091,7 +10098,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1497
+            "y": 1577
           },
           "id": 301,
           "options": {
@@ -10223,7 +10230,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 1497
+            "y": 1577
           },
           "id": 326,
           "options": {
@@ -10337,7 +10344,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 1507
+            "y": 1587
           },
           "id": 34,
           "options": {
@@ -10382,7 +10389,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 29
+        "y": 59
       },
       "id": 271,
       "panels": [
@@ -10479,7 +10486,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2566
+            "y": 2646
           },
           "id": 28,
           "options": {
@@ -10586,7 +10593,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2566
+            "y": 2646
           },
           "id": 41,
           "options": {
@@ -10686,7 +10693,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2926
+            "y": 3006
           },
           "id": 44,
           "options": {
@@ -10794,7 +10801,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2926
+            "y": 3006
           },
           "id": 219,
           "options": {
@@ -10840,7 +10847,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 30
+        "y": 60
       },
       "id": 272,
       "panels": [
@@ -10919,7 +10926,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2567
+            "y": 2647
           },
           "id": 60,
           "options": {
@@ -11041,7 +11048,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2567
+            "y": 2647
           },
           "id": 142,
           "options": {
@@ -11161,7 +11168,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2807
+            "y": 2887
           },
           "id": 143,
           "options": {
@@ -11281,7 +11288,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2807
+            "y": 2887
           },
           "id": 141,
           "options": {
@@ -11401,7 +11408,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2817
+            "y": 2897
           },
           "id": 146,
           "options": {
@@ -11512,7 +11519,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2817
+            "y": 2897
           },
           "id": 327,
           "options": {
@@ -11623,7 +11630,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2827
+            "y": 2907
           },
           "id": 145,
           "options": {
@@ -11735,7 +11742,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2827
+            "y": 2907
           },
           "id": 144,
           "options": {
@@ -11855,7 +11862,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2837
+            "y": 2917
           },
           "id": 232,
           "options": {
@@ -11953,7 +11960,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2837
+            "y": 2917
           },
           "id": 231,
           "options": {
@@ -12052,7 +12059,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2847
+            "y": 2927
           },
           "id": 230,
           "options": {
@@ -12180,7 +12187,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2847
+            "y": 2927
           },
           "id": 61,
           "options": {
@@ -12286,7 +12293,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2857
+            "y": 2937
           },
           "id": 309,
           "options": {
@@ -12363,7 +12370,7 @@
             "h": 10,
             "w": 6,
             "x": 12,
-            "y": 2857
+            "y": 2937
           },
           "id": 280,
           "options": {
@@ -12436,7 +12443,7 @@
             "h": 10,
             "w": 6,
             "x": 18,
-            "y": 2857
+            "y": 2937
           },
           "id": 288,
           "options": {
@@ -12488,7 +12495,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 31
+        "y": 61
       },
       "id": 273,
       "panels": [
@@ -12555,7 +12562,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2568
+            "y": 2648
           },
           "id": 63,
           "options": {
@@ -12685,7 +12692,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2568
+            "y": 2648
           },
           "id": 124,
           "options": {
@@ -12795,7 +12802,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2598
+            "y": 2678
           },
           "id": 126,
           "options": {
@@ -12895,7 +12902,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2598
+            "y": 2678
           },
           "id": 125,
           "options": {
@@ -13005,7 +13012,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2608
+            "y": 2688
           },
           "id": 220,
           "options": {
@@ -13123,7 +13130,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2608
+            "y": 2688
           },
           "id": 339,
           "options": {
@@ -13233,7 +13240,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2618
+            "y": 2698
           },
           "id": 336,
           "options": {
@@ -13355,7 +13362,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2618
+            "y": 2698
           },
           "id": 290,
           "options": {
@@ -13468,7 +13475,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 2628
+            "y": 2708
           },
           "id": 310,
           "options": {
@@ -13587,7 +13594,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 2628
+            "y": 2708
           },
           "id": 330,
           "options": {
@@ -13645,7 +13652,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 32
+        "y": 62
       },
       "id": 274,
       "panels": [
@@ -13725,7 +13732,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 841
+            "y": 921
           },
           "id": 221,
           "options": {
@@ -13858,7 +13865,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 841
+            "y": 921
           },
           "id": 299,
           "options": {
@@ -13980,7 +13987,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 851
+            "y": 931
           },
           "id": 55,
           "options": {
@@ -14106,7 +14113,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 851
+            "y": 931
           },
           "id": 115,
           "options": {
@@ -14216,7 +14223,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 861
+            "y": 941
           },
           "id": 104,
           "options": {
@@ -14392,7 +14399,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 861
+            "y": 941
           },
           "id": 109,
           "options": {
@@ -14542,7 +14549,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 871
+            "y": 951
           },
           "id": 50,
           "options": {
@@ -14657,7 +14664,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 871
+            "y": 951
           },
           "id": 91,
           "options": {
@@ -14809,7 +14816,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 881
+            "y": 961
           },
           "id": 85,
           "options": {
@@ -14919,7 +14926,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 881
+            "y": 961
           },
           "id": 337,
           "options": {
@@ -15030,7 +15037,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 891
+            "y": 971
           },
           "id": 82,
           "options": {
@@ -15140,7 +15147,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 891
+            "y": 971
           },
           "id": 320,
           "options": {
@@ -15230,7 +15237,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 33
+        "y": 63
       },
       "id": 279,
       "panels": [
@@ -15301,7 +15308,7 @@
             "h": 10,
             "w": 12,
             "x": 0,
-            "y": 902
+            "y": 982
           },
           "id": 40,
           "options": {
@@ -15401,7 +15408,7 @@
             "h": 10,
             "w": 12,
             "x": 12,
-            "y": 902
+            "y": 982
           },
           "id": 308,
           "options": {
@@ -15555,7 +15562,7 @@
             "h": 10,
             "w": 10,
             "x": 0,
-            "y": 912
+            "y": 992
           },
           "id": 149,
           "options": {
@@ -15719,7 +15726,7 @@
             "h": 10,
             "w": 10,
             "x": 10,
-            "y": 912
+            "y": 992
           },
           "id": 64,
           "options": {
@@ -15801,7 +15808,7 @@
             "h": 10,
             "w": 4,
             "x": 20,
-            "y": 912
+            "y": 992
           },
           "id": 157,
           "options": {
@@ -15963,5 +15970,5 @@
   "timezone": "browser",
   "title": "Node Exporter Full",
   "uid": "rYdddlPWk",
-  "version": 8
+  "version": 9
 }
