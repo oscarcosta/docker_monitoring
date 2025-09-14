@@ -8532,18 +8532,30 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
+                "color": "semi-dark-red",
                 "value": 0
-              },
-              {
-                "color": "red",
-                "value": 1
               }
             ]
           },
           "unit": "none"
         },
-        "overrides": []
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": " alarm"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "semi-dark-red",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          }
+        ]
       },
       "gridPos": {
         "h": 10,
@@ -8556,7 +8568,6 @@
         "legend": {
           "calcs": [
             "min",
-            "mean",
             "max"
           ],
           "displayMode": "table",
@@ -8579,7 +8590,7 @@
           "hide": false,
           "instant": false,
           "interval": "",
-          "legendFormat": "{{ power_supply }} online",
+          "legendFormat": "{{ voltage }} alarm",
           "range": true,
           "refId": "A",
           "step": 240
@@ -15970,5 +15981,5 @@
   "timezone": "browser",
   "title": "Node Exporter Full",
   "uid": "rYdddlPWk",
-  "version": 9
+  "version": 10
 }
