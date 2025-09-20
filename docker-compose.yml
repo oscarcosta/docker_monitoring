@@ -16,7 +16,7 @@ services:
       - --collector.filesystem.ignored-mount-points
       - ^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns|rootfs/var/lib/docker/aufs)($$|/)
     network_mode: "host"  # necessário para métricas do host
-    expose:
+    expose: # used for documentation; ignored in host mode
       - 9100
     restart: unless-stopped
     healthcheck:
@@ -39,7 +39,7 @@ services:
       - /dev/disk/:/dev/disk:ro
       - /etc/machine-id:/etc/machine-id:ro
     network_mode: "host"  # necessário para métricas do host
-    expose:
+    expose: # used for documentation; ignored in host mode
       - 8080
     restart: unless-stopped
     healthcheck:
@@ -60,7 +60,7 @@ services:
       - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
       - ./prometheus/data:/prometheus
     network_mode: host  # necessário para métricas do host
-    expose:
+    expose: # used for documentation; ignored in host mode
       - 9090
     restart: unless-stopped
     healthcheck:
@@ -80,7 +80,7 @@ services:
       - ./grafana/data:/var/lib/grafana
       - ./grafana/provisioning:/etc/grafana/provisioning
     network_mode: host  # para acessar Node Exporter/cAdvisor no host
-    expose:
+    expose: # used for documentation; ignored in host mode
       - 3000
     environment:
       - GF_SECURITY_ADMIN_USER=admin
