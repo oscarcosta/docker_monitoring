@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
 
   node-exporter:
@@ -10,12 +8,12 @@ services:
       - /sys:/host/sys:ro
       - /:/rootfs:ro
     command:
+      - --log.level=error
       - --path.procfs=/host/proc
       - --path.sysfs=/host/sys
-      - --path.rootfs=/host
-      - --collector.filesystem.ignored-mount-points
-      - ^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns|rootfs/var/lib/docker/aufs)($$|/)
-    network_mode: "host"  # necessário para métricas do host
+      - --path.rootfs=/rootfs
+      - --collector.filesystem.ignored-mount-points=^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/(containers|overlay2|aufs)|rootfs/run/docker/netns)($|/)
+    network_mode: host  # necessário para métricas do host
     expose: # used for documentation; ignored in host mode
       - 9100
     restart: unless-stopped
@@ -31,6 +29,9 @@ services:
     container_name: cadvisor
     cap_add:
       - SYS_ADMIN
+    command:
+      - '--logtostderr=true'
+      - '--v=1'
     volumes:
       - /:/rootfs:ro
       - /var/run:/var/run:rw
@@ -53,6 +54,12 @@ services:
     image: prom/prometheus:latest
     container_name: prometheus
     user: "65534:65534"  # nobody:nogroup
+    command:
+    - '--config.file=/etc/prometheus/prometheus.yml'
+    - '--storage.tsdb.path=/prometheus'
+    - '--storage.tsdb.retention.time=30d'
+    - '--storage.tsdb.retention.size=8GB'
+    - '--log.level=warn'
     depends_on:
       - node-exporter
       - cadvisor
